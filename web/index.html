@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    Fore more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+  -->
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="halloween">
+
+  
+
+  
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <!-- Open Graph & SEO tags -->
+  <meta property="og:title" content="halloween" />
+  <meta property="og:description" content="Spooky Website" />
+  <meta property="og:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" /> 
+  <meta name="twitter:title" content="halloween" />
+  <meta name="twitter:description" content="Spooky Website" />
+  <meta name="twitter:image" content="https://storage.googleapis.com/flutterflow-prod-hosting/og_splash_gradient.png" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <title> halloween </title>
+  <meta name="description" content="Spooky Website" />
+    
+
+  <!-- Status Bar color in Safari browser (iOS) and PWA -->
+  <meta name="theme-color" media="(prefers-color-scheme: light)" content="#f1f4f8">
+  <meta name="theme-color" media="(prefers-color-scheme: dark)"  content="#1d2428">
+
+  <link rel="manifest" href="manifest.json">
+  
+  
+</head>
+<body>
+  
+  
+  
+  
+  
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+
+</body>
+</html>
